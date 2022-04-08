@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include <stdi.h>
 
 int main(){
-    char caractere;
 
-    printf("Digite um caractere \n");
-    scanf("%c", &caractere);
+    int numero1;
+    int nuumero2;
 
-    printf("O caractere representado em inteiro é: %d \n" , caractere);
+    printf("Digite o primeiro numero: \n");
+    scanf("%d");
 
     return 0;
 }
